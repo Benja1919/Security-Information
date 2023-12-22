@@ -1,0 +1,2 @@
+Inside server folder we can see server.py and also model.py
+in model.py we can see the "validate_login" function that recieves the login cookie. we can see in this function that if the login=base64encode(username) we will succeed to enter. so by doing so - we entered the "btoa" function with "edward" (our username) and by so managed to enter after refreshing.

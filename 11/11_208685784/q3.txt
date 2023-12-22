@@ -1,0 +1,1 @@
+To make the gif dissapear after first watching, we used onload and in Window.localStorage added a variable of first_occurence that if is already exists (=1) then make the gif none, and if not exist - then appears.

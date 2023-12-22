@@ -1,0 +1,4 @@
+# id_number: 208685784
+
+The following program does concatination of the word (string) given in the register ESI to the word (string) given in EDI. we assume that these stack-pointers end with '0' which means end of string for example.
+We can see that in LABEL_1 we iterate until reaching '0' which means end of the string, and then we jump to LABEL_2, where we add the chars in ESI to the end of EDI until reaching its end. important to mention that ESI will not change.

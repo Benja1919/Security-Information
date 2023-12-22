@@ -1,0 +1,6 @@
+Inside server.py we can see the way that the system handles the renaming process - so at first we used "/rename". then, we pass a new name with ' for closing. if username exists then server will do rename method with the following SQL:
+UPDATE users SET full_name = '%s' WHERE user_id = '$s'" %(new_name, "user_id,)
+
+so we changed bob names with this long string including the desired password, so we get the following:
+UPDATE users SET full_name = 'Bob Marmite', password = sha1('1234') WHERE user_name = 'bob'
+and that will change bob's password as wanted

@@ -1,0 +1,3 @@
+We need to send HTTP request to our address: "http://localhost:8000/post with a given message ("Give Edward a Raise!") + channel ("#announcements") so by using $.ajax as instructed the browser will attach the cookie to request. also added xhrFields: {withCredentials: true} to assure cross domain request.
+I used this site for help in addition to the one hinted in the html file:
+https://www.w3docs.com/snippets/php/sending-multiple-data-parameters-with-jquery-ajax.html
